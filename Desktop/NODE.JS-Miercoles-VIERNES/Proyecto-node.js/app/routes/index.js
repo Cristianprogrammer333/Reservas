@@ -1,0 +1,1 @@
+import alumnos from "./routes/routes.alumnos.js";
