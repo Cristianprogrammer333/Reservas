@@ -81,17 +81,29 @@ export const actualizaralumno = async(req, res) =>{
 };
 
 export const eliminaralumno = async(req, res) =>{
+    let info = req.body;
     try {
-        const resultado = await pool.query("delete * from antiguedad");
-        console.log(resultado);
-        res.json(resultado);
+        let resultado = await pool.query(`
+        delete  from propiedades
+        where id_propiedad = ${info.id_propiedad}
+        `);
+
+        if (resultado[0].affectedRows > 0 ){
+            res.json({
+                respuesta:"registro Eliminado"
+            })
+        }else{
+            res.json({
+                "respuesta": "No se Elimino"
+            });
+        };
         
-    }catch (error) {
+    } catch (error) {
         res.json({
             "error":error,
-            "method":"delete"
-        });
-    };  
+            "method":"Delete"
+        });  
+    };
     
 };
 
