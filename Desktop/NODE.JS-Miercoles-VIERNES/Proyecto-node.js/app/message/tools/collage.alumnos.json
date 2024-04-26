@@ -1,0 +1,59 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Alumnos",
+    "collectionId": "9eb2d532-8025-4a05-92b1-fb30ba178486",
+    "dateExported": "2024-04-26T20:12:27.530Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d545fbba-ad8a-494a-8f4c-d3a97dc152e2",
+            "colId": "9eb2d532-8025-4a05-92b1-fb30ba178486",
+            "containerId": "",
+            "name": "MostrarAlumno",
+            "url": "http://localhost:10000/api/estudiante",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-04-26T20:04:49.724Z",
+            "modified": "2024-04-26T20:05:06.891Z",
+            "headers": []
+        },
+        {
+            "_id": "348c5fe7-6c1b-4304-bdf2-1403113cc6b7",
+            "colId": "9eb2d532-8025-4a05-92b1-fb30ba178486",
+            "containerId": "",
+            "name": "CrearAlumno",
+            "url": "http://localhost:10000/api/estudiante",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-04-26T20:05:30.169Z",
+            "modified": "2024-04-26T20:05:42.727Z",
+            "headers": []
+        },
+        {
+            "_id": "09747cab-f659-4ea1-a40a-3e5c3e6200aa",
+            "colId": "9eb2d532-8025-4a05-92b1-fb30ba178486",
+            "containerId": "",
+            "name": "ActualizarAlumno",
+            "url": "http://localhost:10000/api/estudiante",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-04-26T20:06:00.306Z",
+            "modified": "2024-04-26T20:06:07.433Z",
+            "headers": []
+        },
+        {
+            "_id": "5e623470-e2eb-4684-aaf7-270b8957500a",
+            "colId": "9eb2d532-8025-4a05-92b1-fb30ba178486",
+            "containerId": "",
+            "name": "EliminarAlumno",
+            "url": "http://localhost:10000/api/estudiante",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-04-26T20:06:22.539Z",
+            "modified": "2024-04-26T20:06:29.680Z",
+            "headers": []
+        }
+    ],
+    "ref": "G8ecinH2mFLQ9mR2s-z3ytLN5LbNlaWncmeRTCkFlJU3REmawQBBiG2C0ntd3EJFMhlTeOjQSasIvUffKz5K6w"
+}
